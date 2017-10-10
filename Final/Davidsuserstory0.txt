@@ -1,0 +1,9 @@
+Daves main stories:
+Quick access to stats of monsters and player
+Enter and save stats of monsters and players
+Ability to select file save location and files opened
+Application Name: DM assistant 
+The purpose of this application is to assist the DM in finding information for the campaign quickly.
+I plan to use streamread and streamwrite to create and read txt files. When it reads the txt file it will create a object that will be put in a list to be selected from to show the data. When it writes it will write the file in a way it will be able to read it and show it as a object. 
+Comments 
+Depending on time the scope of this project may change to be larger or smaller. Dave has given me power to make calls on what to add or take away. 
