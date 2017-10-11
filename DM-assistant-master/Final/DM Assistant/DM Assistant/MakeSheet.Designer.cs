@@ -133,21 +133,21 @@
             this.label53 = new System.Windows.Forms.Label();
             this.txtHP = new System.Windows.Forms.TextBox();
             this.label54 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlRaceSelect = new System.Windows.Forms.Panel();
+            this.pnlBaseinfo = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtClass = new System.Windows.Forms.TextBox();
             this.label56 = new System.Windows.Forms.Label();
             this.txtRace = new System.Windows.Forms.TextBox();
             this.label55 = new System.Windows.Forms.Label();
             this.panelStats = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.pnlClassSelect = new System.Windows.Forms.Panel();
             this.txtAC = new System.Windows.Forms.TextBox();
             this.txtSpeed = new System.Windows.Forms.TextBox();
             this.txtInitative = new System.Windows.Forms.TextBox();
             this.panelSecondaryStats = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label24 = new System.Windows.Forms.Label();
+            this.pnlPersonality = new System.Windows.Forms.Panel();
+            this.lblFlawsLable = new System.Windows.Forms.Label();
             this.txtFlaws = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.txtBonds = new System.Windows.Forms.TextBox();
@@ -155,8 +155,8 @@
             this.txtIdeals = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.txtPersonalityTraits = new System.Windows.Forms.TextBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label23 = new System.Windows.Forms.Label();
+            this.pnlFeatsTraitsect = new System.Windows.Forms.Panel();
+            this.lblLanguagesLable = new System.Windows.Forms.Label();
             this.txtLanguages = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.txtProficiencies = new System.Windows.Forms.TextBox();
@@ -164,7 +164,7 @@
             this.txtTraits = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.txtFeats = new System.Windows.Forms.TextBox();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.pnlInventory = new System.Windows.Forms.Panel();
             this.lblTresuresLable = new System.Windows.Forms.Label();
             this.txtTresures = new System.Windows.Forms.TextBox();
             this.lblCurrencyLable = new System.Windows.Forms.Label();
@@ -179,14 +179,14 @@
             this.btnReset = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.GrpSkills.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.pnlRaceSelect.SuspendLayout();
+            this.pnlBaseinfo.SuspendLayout();
             this.panelStats.SuspendLayout();
-            this.panel5.SuspendLayout();
+            this.pnlClassSelect.SuspendLayout();
             this.panelSecondaryStats.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel7.SuspendLayout();
+            this.pnlPersonality.SuspendLayout();
+            this.pnlFeatsTraitsect.SuspendLayout();
+            this.pnlInventory.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnMake
@@ -200,7 +200,6 @@
             // 
             // lblProficiency
             // 
-            this.lblProficiency.Enabled = false;
             this.lblProficiency.Location = new System.Drawing.Point(219, 35);
             this.lblProficiency.Name = "lblProficiency";
             this.lblProficiency.Size = new System.Drawing.Size(30, 20);
@@ -210,7 +209,6 @@
             // 
             // label31
             // 
-            this.label31.Enabled = false;
             this.label31.Location = new System.Drawing.Point(218, 9);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(30, 20);
@@ -880,7 +878,6 @@
             // 
             // label21
             // 
-            this.label21.Enabled = false;
             this.label21.Location = new System.Drawing.Point(183, 7);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(30, 20);
@@ -900,7 +897,6 @@
             // 
             // lblCHA
             // 
-            this.lblCHA.Enabled = false;
             this.lblCHA.Location = new System.Drawing.Point(183, 59);
             this.lblCHA.Name = "lblCHA";
             this.lblCHA.Size = new System.Drawing.Size(30, 20);
@@ -910,7 +906,6 @@
             // 
             // label19
             // 
-            this.label19.Enabled = false;
             this.label19.Location = new System.Drawing.Point(147, 7);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(30, 20);
@@ -930,7 +925,6 @@
             // 
             // lblWIS
             // 
-            this.lblWIS.Enabled = false;
             this.lblWIS.Location = new System.Drawing.Point(147, 59);
             this.lblWIS.Name = "lblWIS";
             this.lblWIS.Size = new System.Drawing.Size(30, 20);
@@ -940,7 +934,6 @@
             // 
             // label17
             // 
-            this.label17.Enabled = false;
             this.label17.Location = new System.Drawing.Point(111, 7);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(30, 20);
@@ -960,7 +953,6 @@
             // 
             // lblINT
             // 
-            this.lblINT.Enabled = false;
             this.lblINT.Location = new System.Drawing.Point(111, 59);
             this.lblINT.Name = "lblINT";
             this.lblINT.Size = new System.Drawing.Size(30, 20);
@@ -970,7 +962,6 @@
             // 
             // label15
             // 
-            this.label15.Enabled = false;
             this.label15.Location = new System.Drawing.Point(75, 7);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(30, 20);
@@ -990,7 +981,6 @@
             // 
             // lblCON
             // 
-            this.lblCON.Enabled = false;
             this.lblCON.Location = new System.Drawing.Point(75, 59);
             this.lblCON.Name = "lblCON";
             this.lblCON.Size = new System.Drawing.Size(30, 20);
@@ -1000,7 +990,6 @@
             // 
             // label13
             // 
-            this.label13.Enabled = false;
             this.label13.Location = new System.Drawing.Point(39, 7);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(30, 20);
@@ -1020,7 +1009,6 @@
             // 
             // lblDEX
             // 
-            this.lblDEX.Enabled = false;
             this.lblDEX.Location = new System.Drawing.Point(39, 59);
             this.lblDEX.Name = "lblDEX";
             this.lblDEX.Size = new System.Drawing.Size(30, 20);
@@ -1030,7 +1018,6 @@
             // 
             // lblSTR
             // 
-            this.lblSTR.Enabled = false;
             this.lblSTR.Location = new System.Drawing.Point(3, 59);
             this.lblSTR.Name = "lblSTR";
             this.lblSTR.Size = new System.Drawing.Size(30, 20);
@@ -1050,7 +1037,6 @@
             // 
             // label10
             // 
-            this.label10.Enabled = false;
             this.label10.Location = new System.Drawing.Point(3, 7);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(30, 20);
@@ -1369,7 +1355,6 @@
             // 
             // label54
             // 
-            this.label54.Enabled = false;
             this.label54.Location = new System.Drawing.Point(128, 8);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(30, 13);
@@ -1377,41 +1362,41 @@
             this.label54.Text = "HP";
             this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel1
+            // pnlRaceSelect
             // 
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.cmbRace);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.cmbSubRace);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.cmbVariant);
-            this.panel1.Location = new System.Drawing.Point(521, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(210, 88);
-            this.panel1.TabIndex = 59;
-            this.panel1.Visible = false;
+            this.pnlRaceSelect.Controls.Add(this.label7);
+            this.pnlRaceSelect.Controls.Add(this.cmbRace);
+            this.pnlRaceSelect.Controls.Add(this.label8);
+            this.pnlRaceSelect.Controls.Add(this.cmbSubRace);
+            this.pnlRaceSelect.Controls.Add(this.label9);
+            this.pnlRaceSelect.Controls.Add(this.cmbVariant);
+            this.pnlRaceSelect.Location = new System.Drawing.Point(521, 12);
+            this.pnlRaceSelect.Name = "pnlRaceSelect";
+            this.pnlRaceSelect.Size = new System.Drawing.Size(210, 88);
+            this.pnlRaceSelect.TabIndex = 59;
+            this.pnlRaceSelect.Visible = false;
             // 
-            // panel2
+            // pnlBaseinfo
             // 
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.txtClass);
-            this.panel2.Controls.Add(this.label56);
-            this.panel2.Controls.Add(this.txtRace);
-            this.panel2.Controls.Add(this.label55);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.txtName);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.lblLevel);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.txtEXP);
-            this.panel2.Controls.Add(this.label5);
-            this.panel2.Controls.Add(this.cmbBackground);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.cmbAlignment);
-            this.panel2.Location = new System.Drawing.Point(12, 12);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(503, 55);
-            this.panel2.TabIndex = 60;
+            this.pnlBaseinfo.Controls.Add(this.panel3);
+            this.pnlBaseinfo.Controls.Add(this.txtClass);
+            this.pnlBaseinfo.Controls.Add(this.label56);
+            this.pnlBaseinfo.Controls.Add(this.txtRace);
+            this.pnlBaseinfo.Controls.Add(this.label55);
+            this.pnlBaseinfo.Controls.Add(this.label1);
+            this.pnlBaseinfo.Controls.Add(this.txtName);
+            this.pnlBaseinfo.Controls.Add(this.label3);
+            this.pnlBaseinfo.Controls.Add(this.lblLevel);
+            this.pnlBaseinfo.Controls.Add(this.label4);
+            this.pnlBaseinfo.Controls.Add(this.txtEXP);
+            this.pnlBaseinfo.Controls.Add(this.label5);
+            this.pnlBaseinfo.Controls.Add(this.cmbBackground);
+            this.pnlBaseinfo.Controls.Add(this.label6);
+            this.pnlBaseinfo.Controls.Add(this.cmbAlignment);
+            this.pnlBaseinfo.Location = new System.Drawing.Point(12, 12);
+            this.pnlBaseinfo.Name = "pnlBaseinfo";
+            this.pnlBaseinfo.Size = new System.Drawing.Size(503, 55);
+            this.pnlBaseinfo.TabIndex = 60;
             // 
             // panel3
             // 
@@ -1479,18 +1464,18 @@
             this.panelStats.Size = new System.Drawing.Size(253, 87);
             this.panelStats.TabIndex = 61;
             // 
-            // panel5
+            // pnlClassSelect
             // 
-            this.panel5.Controls.Add(this.label2);
-            this.panel5.Controls.Add(this.checkBox1);
-            this.panel5.Controls.Add(this.cmbClass);
-            this.panel5.Controls.Add(this.cmbSecondClass);
-            this.panel5.Controls.Add(this.label12);
-            this.panel5.Location = new System.Drawing.Point(521, 106);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(210, 86);
-            this.panel5.TabIndex = 62;
-            this.panel5.Visible = false;
+            this.pnlClassSelect.Controls.Add(this.label2);
+            this.pnlClassSelect.Controls.Add(this.checkBox1);
+            this.pnlClassSelect.Controls.Add(this.cmbClass);
+            this.pnlClassSelect.Controls.Add(this.cmbSecondClass);
+            this.pnlClassSelect.Controls.Add(this.label12);
+            this.pnlClassSelect.Location = new System.Drawing.Point(521, 106);
+            this.pnlClassSelect.Name = "pnlClassSelect";
+            this.pnlClassSelect.Size = new System.Drawing.Size(210, 86);
+            this.pnlClassSelect.TabIndex = 62;
+            this.pnlClassSelect.Visible = false;
             // 
             // txtAC
             // 
@@ -1536,29 +1521,29 @@
             this.panelSecondaryStats.Size = new System.Drawing.Size(176, 81);
             this.panelSecondaryStats.TabIndex = 66;
             // 
-            // panel6
+            // pnlPersonality
             // 
-            this.panel6.Controls.Add(this.label24);
-            this.panel6.Controls.Add(this.txtFlaws);
-            this.panel6.Controls.Add(this.label25);
-            this.panel6.Controls.Add(this.txtBonds);
-            this.panel6.Controls.Add(this.label27);
-            this.panel6.Controls.Add(this.txtIdeals);
-            this.panel6.Controls.Add(this.label29);
-            this.panel6.Controls.Add(this.txtPersonalityTraits);
-            this.panel6.Location = new System.Drawing.Point(503, 205);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(197, 335);
-            this.panel6.TabIndex = 77;
+            this.pnlPersonality.Controls.Add(this.lblFlawsLable);
+            this.pnlPersonality.Controls.Add(this.txtFlaws);
+            this.pnlPersonality.Controls.Add(this.label25);
+            this.pnlPersonality.Controls.Add(this.txtBonds);
+            this.pnlPersonality.Controls.Add(this.label27);
+            this.pnlPersonality.Controls.Add(this.txtIdeals);
+            this.pnlPersonality.Controls.Add(this.label29);
+            this.pnlPersonality.Controls.Add(this.txtPersonalityTraits);
+            this.pnlPersonality.Location = new System.Drawing.Point(503, 205);
+            this.pnlPersonality.Name = "pnlPersonality";
+            this.pnlPersonality.Size = new System.Drawing.Size(197, 335);
+            this.pnlPersonality.TabIndex = 77;
             // 
-            // label24
+            // lblFlawsLable
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(81, 249);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(34, 13);
-            this.label24.TabIndex = 71;
-            this.label24.Text = "Flaws";
+            this.lblFlawsLable.AutoSize = true;
+            this.lblFlawsLable.Location = new System.Drawing.Point(81, 249);
+            this.lblFlawsLable.Name = "lblFlawsLable";
+            this.lblFlawsLable.Size = new System.Drawing.Size(34, 13);
+            this.lblFlawsLable.TabIndex = 71;
+            this.lblFlawsLable.Text = "Flaws";
             // 
             // txtFlaws
             // 
@@ -1623,29 +1608,29 @@
             this.txtPersonalityTraits.Size = new System.Drawing.Size(180, 60);
             this.txtPersonalityTraits.TabIndex = 64;
             // 
-            // panel4
+            // pnlFeatsTraitsect
             // 
-            this.panel4.Controls.Add(this.label23);
-            this.panel4.Controls.Add(this.txtLanguages);
-            this.panel4.Controls.Add(this.label22);
-            this.panel4.Controls.Add(this.txtProficiencies);
-            this.panel4.Controls.Add(this.label18);
-            this.panel4.Controls.Add(this.txtTraits);
-            this.panel4.Controls.Add(this.label16);
-            this.panel4.Controls.Add(this.txtFeats);
-            this.panel4.Location = new System.Drawing.Point(291, 205);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(197, 335);
-            this.panel4.TabIndex = 76;
+            this.pnlFeatsTraitsect.Controls.Add(this.lblLanguagesLable);
+            this.pnlFeatsTraitsect.Controls.Add(this.txtLanguages);
+            this.pnlFeatsTraitsect.Controls.Add(this.label22);
+            this.pnlFeatsTraitsect.Controls.Add(this.txtProficiencies);
+            this.pnlFeatsTraitsect.Controls.Add(this.label18);
+            this.pnlFeatsTraitsect.Controls.Add(this.txtTraits);
+            this.pnlFeatsTraitsect.Controls.Add(this.label16);
+            this.pnlFeatsTraitsect.Controls.Add(this.txtFeats);
+            this.pnlFeatsTraitsect.Location = new System.Drawing.Point(291, 205);
+            this.pnlFeatsTraitsect.Name = "pnlFeatsTraitsect";
+            this.pnlFeatsTraitsect.Size = new System.Drawing.Size(197, 335);
+            this.pnlFeatsTraitsect.TabIndex = 76;
             // 
-            // label23
+            // lblLanguagesLable
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(68, 249);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(60, 13);
-            this.label23.TabIndex = 71;
-            this.label23.Text = "Languages";
+            this.lblLanguagesLable.AutoSize = true;
+            this.lblLanguagesLable.Location = new System.Drawing.Point(68, 249);
+            this.lblLanguagesLable.Name = "lblLanguagesLable";
+            this.lblLanguagesLable.Size = new System.Drawing.Size(60, 13);
+            this.lblLanguagesLable.TabIndex = 71;
+            this.lblLanguagesLable.Text = "Languages";
             // 
             // txtLanguages
             // 
@@ -1710,22 +1695,22 @@
             this.txtFeats.Size = new System.Drawing.Size(180, 60);
             this.txtFeats.TabIndex = 64;
             // 
-            // panel7
+            // pnlInventory
             // 
-            this.panel7.Controls.Add(this.lblTresuresLable);
-            this.panel7.Controls.Add(this.txtTresures);
-            this.panel7.Controls.Add(this.lblCurrencyLable);
-            this.panel7.Controls.Add(this.txtCurrency);
-            this.panel7.Controls.Add(this.lblAmunitionLable);
-            this.panel7.Controls.Add(this.txtAmuntion);
-            this.panel7.Controls.Add(this.lblArmorLable);
-            this.panel7.Controls.Add(this.txtArmor);
-            this.panel7.Controls.Add(this.lblWeaponsLable);
-            this.panel7.Controls.Add(this.txtWeapons);
-            this.panel7.Location = new System.Drawing.Point(291, 546);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(409, 261);
-            this.panel7.TabIndex = 78;
+            this.pnlInventory.Controls.Add(this.lblTresuresLable);
+            this.pnlInventory.Controls.Add(this.txtTresures);
+            this.pnlInventory.Controls.Add(this.lblCurrencyLable);
+            this.pnlInventory.Controls.Add(this.txtCurrency);
+            this.pnlInventory.Controls.Add(this.lblAmunitionLable);
+            this.pnlInventory.Controls.Add(this.txtAmuntion);
+            this.pnlInventory.Controls.Add(this.lblArmorLable);
+            this.pnlInventory.Controls.Add(this.txtArmor);
+            this.pnlInventory.Controls.Add(this.lblWeaponsLable);
+            this.pnlInventory.Controls.Add(this.txtWeapons);
+            this.pnlInventory.Location = new System.Drawing.Point(291, 546);
+            this.pnlInventory.Name = "pnlInventory";
+            this.pnlInventory.Size = new System.Drawing.Size(409, 261);
+            this.pnlInventory.TabIndex = 78;
             // 
             // lblTresuresLable
             // 
@@ -1851,18 +1836,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 10);
-            this.ClientSize = new System.Drawing.Size(784, 511);
+            this.ClientSize = new System.Drawing.Size(801, 511);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnSetSpells);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.pnlPersonality);
+            this.Controls.Add(this.pnlFeatsTraitsect);
+            this.Controls.Add(this.pnlInventory);
             this.Controls.Add(this.panelSecondaryStats);
-            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.pnlClassSelect);
             this.Controls.Add(this.panelStats);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlBaseinfo);
+            this.Controls.Add(this.pnlRaceSelect);
             this.Controls.Add(this.btnMake);
             this.Controls.Add(this.lblMakerLable);
             this.Controls.Add(this.txtMaker);
@@ -1871,22 +1856,22 @@
             this.Text = "MakeSheet";
             this.GrpSkills.ResumeLayout(false);
             this.GrpSkills.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.pnlRaceSelect.ResumeLayout(false);
+            this.pnlRaceSelect.PerformLayout();
+            this.pnlBaseinfo.ResumeLayout(false);
+            this.pnlBaseinfo.PerformLayout();
             this.panelStats.ResumeLayout(false);
             this.panelStats.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
+            this.pnlClassSelect.ResumeLayout(false);
+            this.pnlClassSelect.PerformLayout();
             this.panelSecondaryStats.ResumeLayout(false);
             this.panelSecondaryStats.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.pnlPersonality.ResumeLayout(false);
+            this.pnlPersonality.PerformLayout();
+            this.pnlFeatsTraitsect.ResumeLayout(false);
+            this.pnlFeatsTraitsect.PerformLayout();
+            this.pnlInventory.ResumeLayout(false);
+            this.pnlInventory.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1999,21 +1984,21 @@
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.TextBox txtHP;
         private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlRaceSelect;
+        private System.Windows.Forms.Panel pnlBaseinfo;
         private System.Windows.Forms.TextBox txtRace;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.TextBox txtClass;
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panelStats;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel pnlClassSelect;
         private System.Windows.Forms.TextBox txtAC;
         private System.Windows.Forms.TextBox txtSpeed;
         private System.Windows.Forms.TextBox txtInitative;
         private System.Windows.Forms.Panel panelSecondaryStats;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Panel pnlPersonality;
+        private System.Windows.Forms.Label lblFlawsLable;
         private System.Windows.Forms.TextBox txtFlaws;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TextBox txtBonds;
@@ -2021,8 +2006,8 @@
         private System.Windows.Forms.TextBox txtIdeals;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.TextBox txtPersonalityTraits;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Panel pnlFeatsTraitsect;
+        private System.Windows.Forms.Label lblLanguagesLable;
         private System.Windows.Forms.TextBox txtLanguages;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TextBox txtProficiencies;
@@ -2030,7 +2015,7 @@
         private System.Windows.Forms.TextBox txtTraits;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtFeats;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel pnlInventory;
         private System.Windows.Forms.Label lblTresuresLable;
         private System.Windows.Forms.TextBox txtTresures;
         private System.Windows.Forms.Label lblCurrencyLable;
