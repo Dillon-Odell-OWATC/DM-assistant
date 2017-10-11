@@ -29,64 +29,62 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.label30 = new System.Windows.Forms.Label();
+            this.lblProficiency = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.chkAthletics = new System.Windows.Forms.CheckBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.chkSTRSavingThrow = new System.Windows.Forms.CheckBox();
+            this.lblSTRSavingThrow = new System.Windows.Forms.Label();
+            this.lblAthletics = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
+            this.chkDEXSavingThrow = new System.Windows.Forms.CheckBox();
+            this.lblDEXSavingThrow = new System.Windows.Forms.Label();
+            this.chkAcrobatics = new System.Windows.Forms.CheckBox();
+            this.lblAcrobatics = new System.Windows.Forms.Label();
+            this.chkSleightOfHand = new System.Windows.Forms.CheckBox();
+            this.chkStealth = new System.Windows.Forms.CheckBox();
+            this.lblSleightOfHand = new System.Windows.Forms.Label();
+            this.lblStealth = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.label27 = new System.Windows.Forms.Label();
+            this.chkCONSavingThrow = new System.Windows.Forms.CheckBox();
+            this.lblCONSavingThrow = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.label32 = new System.Windows.Forms.Label();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.label36 = new System.Windows.Forms.Label();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.label37 = new System.Windows.Forms.Label();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.label39 = new System.Windows.Forms.Label();
+            this.chkINTSavingThrow = new System.Windows.Forms.CheckBox();
+            this.lblINTSavingThrow = new System.Windows.Forms.Label();
+            this.chkArcana = new System.Windows.Forms.CheckBox();
+            this.lblArcana = new System.Windows.Forms.Label();
+            this.chkHistory = new System.Windows.Forms.CheckBox();
+            this.lblHistory = new System.Windows.Forms.Label();
+            this.chkInvestigation = new System.Windows.Forms.CheckBox();
+            this.chkNature = new System.Windows.Forms.CheckBox();
+            this.lblInvestigation = new System.Windows.Forms.Label();
+            this.lblNature = new System.Windows.Forms.Label();
+            this.chkReligion = new System.Windows.Forms.CheckBox();
+            this.lblReligion = new System.Windows.Forms.Label();
+            this.chkWISSavingThrow = new System.Windows.Forms.CheckBox();
+            this.lblWISSavingThrow = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
+            this.chkAnimalHandling = new System.Windows.Forms.CheckBox();
+            this.chkInsight = new System.Windows.Forms.CheckBox();
+            this.lblAnimalHandling = new System.Windows.Forms.Label();
+            this.lblInsight = new System.Windows.Forms.Label();
+            this.chkMedicine = new System.Windows.Forms.CheckBox();
+            this.chkPerception = new System.Windows.Forms.CheckBox();
+            this.lblMedicine = new System.Windows.Forms.Label();
+            this.chkSurvival = new System.Windows.Forms.CheckBox();
+            this.lblPerception = new System.Windows.Forms.Label();
+            this.lblSurvival = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
+            this.chkCHASavingThrow = new System.Windows.Forms.CheckBox();
+            this.lblCHASavingThrow = new System.Windows.Forms.Label();
+            this.chkDeception = new System.Windows.Forms.CheckBox();
+            this.chkIntimidation = new System.Windows.Forms.CheckBox();
+            this.lblDeception = new System.Windows.Forms.Label();
+            this.lblIntimidation = new System.Windows.Forms.Label();
+            this.chkPerformance = new System.Windows.Forms.CheckBox();
+            this.chkPersuasion = new System.Windows.Forms.CheckBox();
+            this.lblPerformance = new System.Windows.Forms.Label();
+            this.lblPersuasion = new System.Windows.Forms.Label();
             this.GrpSkills = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
             this.cmbSecondClass = new System.Windows.Forms.ComboBox();
@@ -129,29 +127,31 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.txtInitiative = new System.Windows.Forms.TextBox();
+            this.chkChangeInitiative = new System.Windows.Forms.CheckBox();
             this.label46 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label53 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtHP = new System.Windows.Forms.TextBox();
             this.label54 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label55 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label56 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.txtClass = new System.Windows.Forms.TextBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.txtRace = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.panelStats = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.txtAC = new System.Windows.Forms.TextBox();
+            this.txtSpeed = new System.Windows.Forms.TextBox();
+            this.txtInitative = new System.Windows.Forms.TextBox();
+            this.panelSecondaryStats = new System.Windows.Forms.Panel();
             this.GrpSkills.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.panelStats.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panelSecondaryStats.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -163,16 +163,15 @@
             this.button1.Text = "Make";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // label30
+            // lblProficiency
             // 
-            this.label30.Enabled = false;
-            this.label30.Location = new System.Drawing.Point(219, 35);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(30, 20);
-            this.label30.TabIndex = 47;
-            this.label30.Text = "+0";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label30.Visible = false;
+            this.lblProficiency.Enabled = false;
+            this.lblProficiency.Location = new System.Drawing.Point(219, 35);
+            this.lblProficiency.Name = "lblProficiency";
+            this.lblProficiency.Size = new System.Drawing.Size(30, 20);
+            this.lblProficiency.TabIndex = 47;
+            this.lblProficiency.Text = "+0";
+            this.lblProficiency.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label31
             // 
@@ -183,17 +182,16 @@
             this.label31.TabIndex = 46;
             this.label31.Text = "Prof";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label31.Visible = false;
             // 
-            // checkBox2
+            // chkAthletics
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(134, 39);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(66, 17);
-            this.checkBox2.TabIndex = 44;
-            this.checkBox2.Text = "Athletics";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkAthletics.AutoSize = true;
+            this.chkAthletics.Location = new System.Drawing.Point(134, 39);
+            this.chkAthletics.Name = "chkAthletics";
+            this.chkAthletics.Size = new System.Drawing.Size(66, 17);
+            this.chkAthletics.TabIndex = 44;
+            this.chkAthletics.Text = "Athletics";
+            this.chkAthletics.UseVisualStyleBackColor = true;
             // 
             // label14
             // 
@@ -204,39 +202,36 @@
             this.label14.TabIndex = 44;
             this.label14.Text = "STR";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label14.Visible = false;
             // 
-            // checkBox3
+            // chkSTRSavingThrow
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(17, 39);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(92, 17);
-            this.checkBox3.TabIndex = 45;
-            this.checkBox3.Text = "Saving Throw";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.chkSTRSavingThrow.AutoSize = true;
+            this.chkSTRSavingThrow.Location = new System.Drawing.Point(17, 39);
+            this.chkSTRSavingThrow.Name = "chkSTRSavingThrow";
+            this.chkSTRSavingThrow.Size = new System.Drawing.Size(92, 17);
+            this.chkSTRSavingThrow.TabIndex = 45;
+            this.chkSTRSavingThrow.Text = "Saving Throw";
+            this.chkSTRSavingThrow.UseVisualStyleBackColor = true;
             // 
-            // label16
+            // lblSTRSavingThrow
             // 
-            this.label16.Enabled = false;
-            this.label16.Location = new System.Drawing.Point(48, 59);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(30, 20);
-            this.label16.TabIndex = 44;
-            this.label16.Text = "+0";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label16.Visible = false;
+            this.lblSTRSavingThrow.Enabled = false;
+            this.lblSTRSavingThrow.Location = new System.Drawing.Point(48, 59);
+            this.lblSTRSavingThrow.Name = "lblSTRSavingThrow";
+            this.lblSTRSavingThrow.Size = new System.Drawing.Size(30, 20);
+            this.lblSTRSavingThrow.TabIndex = 44;
+            this.lblSTRSavingThrow.Text = "+0";
+            this.lblSTRSavingThrow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label18
+            // lblAthletics
             // 
-            this.label18.Enabled = false;
-            this.label18.Location = new System.Drawing.Point(152, 59);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(30, 20);
-            this.label18.TabIndex = 46;
-            this.label18.Text = "+0";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label18.Visible = false;
+            this.lblAthletics.Enabled = false;
+            this.lblAthletics.Location = new System.Drawing.Point(152, 59);
+            this.lblAthletics.Name = "lblAthletics";
+            this.lblAthletics.Size = new System.Drawing.Size(30, 20);
+            this.lblAthletics.TabIndex = 46;
+            this.lblAthletics.Text = "+0";
+            this.lblAthletics.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label20
             // 
@@ -247,92 +242,86 @@
             this.label20.TabIndex = 44;
             this.label20.Text = "DEX";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label20.Visible = false;
             // 
-            // checkBox4
+            // chkDEXSavingThrow
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(17, 102);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(92, 17);
-            this.checkBox4.TabIndex = 48;
-            this.checkBox4.Text = "Saving Throw";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.chkDEXSavingThrow.AutoSize = true;
+            this.chkDEXSavingThrow.Location = new System.Drawing.Point(17, 102);
+            this.chkDEXSavingThrow.Name = "chkDEXSavingThrow";
+            this.chkDEXSavingThrow.Size = new System.Drawing.Size(92, 17);
+            this.chkDEXSavingThrow.TabIndex = 48;
+            this.chkDEXSavingThrow.Text = "Saving Throw";
+            this.chkDEXSavingThrow.UseVisualStyleBackColor = true;
             // 
-            // label22
+            // lblDEXSavingThrow
             // 
-            this.label22.Enabled = false;
-            this.label22.Location = new System.Drawing.Point(48, 122);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(30, 20);
-            this.label22.TabIndex = 47;
-            this.label22.Text = "+0";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label22.Visible = false;
+            this.lblDEXSavingThrow.Enabled = false;
+            this.lblDEXSavingThrow.Location = new System.Drawing.Point(48, 122);
+            this.lblDEXSavingThrow.Name = "lblDEXSavingThrow";
+            this.lblDEXSavingThrow.Size = new System.Drawing.Size(30, 20);
+            this.lblDEXSavingThrow.TabIndex = 47;
+            this.lblDEXSavingThrow.Text = "+0";
+            this.lblDEXSavingThrow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox5
+            // chkAcrobatics
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(129, 102);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(76, 17);
-            this.checkBox5.TabIndex = 50;
-            this.checkBox5.Text = "Acrobatics";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.chkAcrobatics.AutoSize = true;
+            this.chkAcrobatics.Location = new System.Drawing.Point(129, 102);
+            this.chkAcrobatics.Name = "chkAcrobatics";
+            this.chkAcrobatics.Size = new System.Drawing.Size(76, 17);
+            this.chkAcrobatics.TabIndex = 50;
+            this.chkAcrobatics.Text = "Acrobatics";
+            this.chkAcrobatics.UseVisualStyleBackColor = true;
             // 
-            // label23
+            // lblAcrobatics
             // 
-            this.label23.Enabled = false;
-            this.label23.Location = new System.Drawing.Point(152, 122);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(30, 20);
-            this.label23.TabIndex = 49;
-            this.label23.Text = "+0";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label23.Visible = false;
+            this.lblAcrobatics.Enabled = false;
+            this.lblAcrobatics.Location = new System.Drawing.Point(152, 122);
+            this.lblAcrobatics.Name = "lblAcrobatics";
+            this.lblAcrobatics.Size = new System.Drawing.Size(30, 20);
+            this.lblAcrobatics.TabIndex = 49;
+            this.lblAcrobatics.Text = "+0";
+            this.lblAcrobatics.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox6
+            // chkSleightOfHand
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(14, 145);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(99, 17);
-            this.checkBox6.TabIndex = 52;
-            this.checkBox6.Text = "Sleight of Hand";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.chkSleightOfHand.AutoSize = true;
+            this.chkSleightOfHand.Location = new System.Drawing.Point(14, 145);
+            this.chkSleightOfHand.Name = "chkSleightOfHand";
+            this.chkSleightOfHand.Size = new System.Drawing.Size(99, 17);
+            this.chkSleightOfHand.TabIndex = 52;
+            this.chkSleightOfHand.Text = "Sleight of Hand";
+            this.chkSleightOfHand.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // chkStealth
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(138, 145);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(59, 17);
-            this.checkBox7.TabIndex = 50;
-            this.checkBox7.Text = "Stealth";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.chkStealth.AutoSize = true;
+            this.chkStealth.Location = new System.Drawing.Point(138, 145);
+            this.chkStealth.Name = "chkStealth";
+            this.chkStealth.Size = new System.Drawing.Size(59, 17);
+            this.chkStealth.TabIndex = 50;
+            this.chkStealth.Text = "Stealth";
+            this.chkStealth.UseVisualStyleBackColor = true;
             // 
-            // label24
+            // lblSleightOfHand
             // 
-            this.label24.Enabled = false;
-            this.label24.Location = new System.Drawing.Point(48, 165);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(30, 20);
-            this.label24.TabIndex = 51;
-            this.label24.Text = "+0";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label24.Visible = false;
-            this.label24.Click += new System.EventHandler(this.label24_Click);
+            this.lblSleightOfHand.Enabled = false;
+            this.lblSleightOfHand.Location = new System.Drawing.Point(48, 165);
+            this.lblSleightOfHand.Name = "lblSleightOfHand";
+            this.lblSleightOfHand.Size = new System.Drawing.Size(30, 20);
+            this.lblSleightOfHand.TabIndex = 51;
+            this.lblSleightOfHand.Text = "+0";
+            this.lblSleightOfHand.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label25
+            // lblStealth
             // 
-            this.label25.Enabled = false;
-            this.label25.Location = new System.Drawing.Point(152, 165);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(30, 20);
-            this.label25.TabIndex = 49;
-            this.label25.Text = "+0";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label25.Visible = false;
+            this.lblStealth.Enabled = false;
+            this.lblStealth.Location = new System.Drawing.Point(152, 165);
+            this.lblStealth.Name = "lblStealth";
+            this.lblStealth.Size = new System.Drawing.Size(30, 20);
+            this.lblStealth.TabIndex = 49;
+            this.lblStealth.Text = "+0";
+            this.lblStealth.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label26
             // 
@@ -343,28 +332,26 @@
             this.label26.TabIndex = 44;
             this.label26.Text = "CON";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label26.Visible = false;
             // 
-            // checkBox8
+            // chkCONSavingThrow
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(17, 208);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(92, 17);
-            this.checkBox8.TabIndex = 54;
-            this.checkBox8.Text = "Saving Throw";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.chkCONSavingThrow.AutoSize = true;
+            this.chkCONSavingThrow.Location = new System.Drawing.Point(17, 208);
+            this.chkCONSavingThrow.Name = "chkCONSavingThrow";
+            this.chkCONSavingThrow.Size = new System.Drawing.Size(92, 17);
+            this.chkCONSavingThrow.TabIndex = 54;
+            this.chkCONSavingThrow.Text = "Saving Throw";
+            this.chkCONSavingThrow.UseVisualStyleBackColor = true;
             // 
-            // label27
+            // lblCONSavingThrow
             // 
-            this.label27.Enabled = false;
-            this.label27.Location = new System.Drawing.Point(48, 228);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(30, 20);
-            this.label27.TabIndex = 53;
-            this.label27.Text = "+0";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label27.Visible = false;
+            this.lblCONSavingThrow.Enabled = false;
+            this.lblCONSavingThrow.Location = new System.Drawing.Point(48, 228);
+            this.lblCONSavingThrow.Name = "lblCONSavingThrow";
+            this.lblCONSavingThrow.Size = new System.Drawing.Size(30, 20);
+            this.lblCONSavingThrow.TabIndex = 53;
+            this.lblCONSavingThrow.Text = "+0";
+            this.lblCONSavingThrow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label28
             // 
@@ -375,175 +362,146 @@
             this.label28.TabIndex = 44;
             this.label28.Text = "INT";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label28.Visible = false;
             // 
-            // checkBox9
+            // chkINTSavingThrow
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(17, 271);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(92, 17);
-            this.checkBox9.TabIndex = 56;
-            this.checkBox9.Text = "Saving Throw";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.chkINTSavingThrow.AutoSize = true;
+            this.chkINTSavingThrow.Location = new System.Drawing.Point(17, 271);
+            this.chkINTSavingThrow.Name = "chkINTSavingThrow";
+            this.chkINTSavingThrow.Size = new System.Drawing.Size(92, 17);
+            this.chkINTSavingThrow.TabIndex = 56;
+            this.chkINTSavingThrow.Text = "Saving Throw";
+            this.chkINTSavingThrow.UseVisualStyleBackColor = true;
             // 
-            // label29
+            // lblINTSavingThrow
             // 
-            this.label29.Enabled = false;
-            this.label29.Location = new System.Drawing.Point(48, 291);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(30, 20);
-            this.label29.TabIndex = 55;
-            this.label29.Text = "+0";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label29.Visible = false;
+            this.lblINTSavingThrow.Enabled = false;
+            this.lblINTSavingThrow.Location = new System.Drawing.Point(48, 291);
+            this.lblINTSavingThrow.Name = "lblINTSavingThrow";
+            this.lblINTSavingThrow.Size = new System.Drawing.Size(30, 20);
+            this.lblINTSavingThrow.TabIndex = 55;
+            this.lblINTSavingThrow.Text = "+0";
+            this.lblINTSavingThrow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox10
+            // chkArcana
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(137, 271);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(60, 17);
-            this.checkBox10.TabIndex = 58;
-            this.checkBox10.Text = "Arcana";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.chkArcana.AutoSize = true;
+            this.chkArcana.Location = new System.Drawing.Point(137, 271);
+            this.chkArcana.Name = "chkArcana";
+            this.chkArcana.Size = new System.Drawing.Size(60, 17);
+            this.chkArcana.TabIndex = 58;
+            this.chkArcana.Text = "Arcana";
+            this.chkArcana.UseVisualStyleBackColor = true;
             // 
-            // label32
+            // lblArcana
             // 
-            this.label32.Enabled = false;
-            this.label32.Location = new System.Drawing.Point(152, 291);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(30, 20);
-            this.label32.TabIndex = 57;
-            this.label32.Text = "+0";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label32.Visible = false;
+            this.lblArcana.Enabled = false;
+            this.lblArcana.Location = new System.Drawing.Point(152, 291);
+            this.lblArcana.Name = "lblArcana";
+            this.lblArcana.Size = new System.Drawing.Size(30, 20);
+            this.lblArcana.TabIndex = 57;
+            this.lblArcana.Text = "+0";
+            this.lblArcana.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox11
+            // chkHistory
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(34, 314);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(58, 17);
-            this.checkBox11.TabIndex = 60;
-            this.checkBox11.Text = "History";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.chkHistory.AutoSize = true;
+            this.chkHistory.Location = new System.Drawing.Point(34, 314);
+            this.chkHistory.Name = "chkHistory";
+            this.chkHistory.Size = new System.Drawing.Size(58, 17);
+            this.chkHistory.TabIndex = 60;
+            this.chkHistory.Text = "History";
+            this.chkHistory.UseVisualStyleBackColor = true;
             // 
-            // label33
+            // lblHistory
             // 
-            this.label33.Enabled = false;
-            this.label33.Location = new System.Drawing.Point(48, 334);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(30, 20);
-            this.label33.TabIndex = 59;
-            this.label33.Text = "+0";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label33.Visible = false;
+            this.lblHistory.Enabled = false;
+            this.lblHistory.Location = new System.Drawing.Point(48, 334);
+            this.lblHistory.Name = "lblHistory";
+            this.lblHistory.Size = new System.Drawing.Size(30, 20);
+            this.lblHistory.TabIndex = 59;
+            this.lblHistory.Text = "+0";
+            this.lblHistory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox12
+            // chkInvestigation
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(124, 314);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(86, 17);
-            this.checkBox12.TabIndex = 62;
-            this.checkBox12.Text = "Investigation";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.chkInvestigation.AutoSize = true;
+            this.chkInvestigation.Location = new System.Drawing.Point(124, 314);
+            this.chkInvestigation.Name = "chkInvestigation";
+            this.chkInvestigation.Size = new System.Drawing.Size(86, 17);
+            this.chkInvestigation.TabIndex = 62;
+            this.chkInvestigation.Text = "Investigation";
+            this.chkInvestigation.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // chkNature
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(34, 357);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(58, 17);
-            this.checkBox13.TabIndex = 58;
-            this.checkBox13.Text = "Nature";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.chkNature.AutoSize = true;
+            this.chkNature.Location = new System.Drawing.Point(34, 357);
+            this.chkNature.Name = "chkNature";
+            this.chkNature.Size = new System.Drawing.Size(58, 17);
+            this.chkNature.TabIndex = 58;
+            this.chkNature.Text = "Nature";
+            this.chkNature.UseVisualStyleBackColor = true;
             // 
-            // label34
+            // lblInvestigation
             // 
-            this.label34.Enabled = false;
-            this.label34.Location = new System.Drawing.Point(152, 334);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(30, 20);
-            this.label34.TabIndex = 61;
-            this.label34.Text = "+0";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label34.Visible = false;
+            this.lblInvestigation.Enabled = false;
+            this.lblInvestigation.Location = new System.Drawing.Point(152, 334);
+            this.lblInvestigation.Name = "lblInvestigation";
+            this.lblInvestigation.Size = new System.Drawing.Size(30, 20);
+            this.lblInvestigation.TabIndex = 61;
+            this.lblInvestigation.Text = "+0";
+            this.lblInvestigation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label35
+            // lblNature
             // 
-            this.label35.Enabled = false;
-            this.label35.Location = new System.Drawing.Point(48, 377);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(30, 20);
-            this.label35.TabIndex = 57;
-            this.label35.Text = "+0";
-            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label35.Visible = false;
+            this.lblNature.Enabled = false;
+            this.lblNature.Location = new System.Drawing.Point(48, 377);
+            this.lblNature.Name = "lblNature";
+            this.lblNature.Size = new System.Drawing.Size(30, 20);
+            this.lblNature.TabIndex = 57;
+            this.lblNature.Text = "+0";
+            this.lblNature.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox14
+            // chkReligion
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(135, 357);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(64, 17);
-            this.checkBox14.TabIndex = 64;
-            this.checkBox14.Text = "Religion";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.chkReligion.AutoSize = true;
+            this.chkReligion.Location = new System.Drawing.Point(135, 357);
+            this.chkReligion.Name = "chkReligion";
+            this.chkReligion.Size = new System.Drawing.Size(64, 17);
+            this.chkReligion.TabIndex = 64;
+            this.chkReligion.Text = "Religion";
+            this.chkReligion.UseVisualStyleBackColor = true;
             // 
-            // label36
+            // lblReligion
             // 
-            this.label36.Enabled = false;
-            this.label36.Location = new System.Drawing.Point(152, 377);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(30, 20);
-            this.label36.TabIndex = 63;
-            this.label36.Text = "+0";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label36.Visible = false;
+            this.lblReligion.Enabled = false;
+            this.lblReligion.Location = new System.Drawing.Point(152, 377);
+            this.lblReligion.Name = "lblReligion";
+            this.lblReligion.Size = new System.Drawing.Size(30, 20);
+            this.lblReligion.TabIndex = 63;
+            this.lblReligion.Text = "+0";
+            this.lblReligion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox15
+            // chkWISSavingThrow
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(121, 208);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(92, 17);
-            this.checkBox15.TabIndex = 66;
-            this.checkBox15.Text = "Saving Throw";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.chkWISSavingThrow.AutoSize = true;
+            this.chkWISSavingThrow.Location = new System.Drawing.Point(17, 420);
+            this.chkWISSavingThrow.Name = "chkWISSavingThrow";
+            this.chkWISSavingThrow.Size = new System.Drawing.Size(92, 17);
+            this.chkWISSavingThrow.TabIndex = 68;
+            this.chkWISSavingThrow.Text = "Saving Throw";
+            this.chkWISSavingThrow.UseVisualStyleBackColor = true;
             // 
-            // label37
+            // lblWISSavingThrow
             // 
-            this.label37.Enabled = false;
-            this.label37.Location = new System.Drawing.Point(152, 228);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(30, 20);
-            this.label37.TabIndex = 65;
-            this.label37.Text = "+0";
-            this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label37.Visible = false;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(17, 420);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(92, 17);
-            this.checkBox16.TabIndex = 68;
-            this.checkBox16.Text = "Saving Throw";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // label39
-            // 
-            this.label39.Enabled = false;
-            this.label39.Location = new System.Drawing.Point(48, 440);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(30, 20);
-            this.label39.TabIndex = 67;
-            this.label39.Text = "+0";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label39.Visible = false;
+            this.lblWISSavingThrow.Enabled = false;
+            this.lblWISSavingThrow.Location = new System.Drawing.Point(48, 440);
+            this.lblWISSavingThrow.Name = "lblWISSavingThrow";
+            this.lblWISSavingThrow.Size = new System.Drawing.Size(30, 20);
+            this.lblWISSavingThrow.TabIndex = 67;
+            this.lblWISSavingThrow.Text = "+0";
+            this.lblWISSavingThrow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label38
             // 
@@ -554,112 +512,106 @@
             this.label38.TabIndex = 48;
             this.label38.Text = "WIS";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label38.Visible = false;
             // 
-            // checkBox17
+            // chkAnimalHandling
             // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(116, 420);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(102, 17);
-            this.checkBox17.TabIndex = 70;
-            this.checkBox17.Text = "Animal Handling";
-            this.checkBox17.UseVisualStyleBackColor = true;
+            this.chkAnimalHandling.AutoSize = true;
+            this.chkAnimalHandling.Location = new System.Drawing.Point(116, 420);
+            this.chkAnimalHandling.Name = "chkAnimalHandling";
+            this.chkAnimalHandling.Size = new System.Drawing.Size(102, 17);
+            this.chkAnimalHandling.TabIndex = 70;
+            this.chkAnimalHandling.Text = "Animal Handling";
+            this.chkAnimalHandling.UseVisualStyleBackColor = true;
             // 
-            // checkBox18
+            // chkInsight
             // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(35, 463);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(57, 17);
-            this.checkBox18.TabIndex = 70;
-            this.checkBox18.Text = "Insight";
-            this.checkBox18.UseVisualStyleBackColor = true;
+            this.chkInsight.AutoSize = true;
+            this.chkInsight.Location = new System.Drawing.Point(35, 463);
+            this.chkInsight.Name = "chkInsight";
+            this.chkInsight.Size = new System.Drawing.Size(57, 17);
+            this.chkInsight.TabIndex = 70;
+            this.chkInsight.Text = "Insight";
+            this.chkInsight.UseVisualStyleBackColor = true;
             // 
-            // label40
+            // lblAnimalHandling
             // 
-            this.label40.Enabled = false;
-            this.label40.Location = new System.Drawing.Point(152, 440);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(30, 20);
-            this.label40.TabIndex = 69;
-            this.label40.Text = "+0";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label40.Visible = false;
+            this.lblAnimalHandling.Enabled = false;
+            this.lblAnimalHandling.Location = new System.Drawing.Point(152, 440);
+            this.lblAnimalHandling.Name = "lblAnimalHandling";
+            this.lblAnimalHandling.Size = new System.Drawing.Size(30, 20);
+            this.lblAnimalHandling.TabIndex = 69;
+            this.lblAnimalHandling.Text = "+0";
+            this.lblAnimalHandling.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label41
+            // lblInsight
             // 
-            this.label41.Enabled = false;
-            this.label41.Location = new System.Drawing.Point(48, 483);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(30, 20);
-            this.label41.TabIndex = 69;
-            this.label41.Text = "+0";
-            this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label41.Visible = false;
+            this.lblInsight.Enabled = false;
+            this.lblInsight.Location = new System.Drawing.Point(48, 483);
+            this.lblInsight.Name = "lblInsight";
+            this.lblInsight.Size = new System.Drawing.Size(30, 20);
+            this.lblInsight.TabIndex = 69;
+            this.lblInsight.Text = "+0";
+            this.lblInsight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox19
+            // chkMedicine
             // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(133, 463);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(69, 17);
-            this.checkBox19.TabIndex = 72;
-            this.checkBox19.Text = "Medicine";
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.chkMedicine.AutoSize = true;
+            this.chkMedicine.Location = new System.Drawing.Point(133, 463);
+            this.chkMedicine.Name = "chkMedicine";
+            this.chkMedicine.Size = new System.Drawing.Size(69, 17);
+            this.chkMedicine.TabIndex = 72;
+            this.chkMedicine.Text = "Medicine";
+            this.chkMedicine.UseVisualStyleBackColor = true;
             // 
-            // checkBox20
+            // chkPerception
             // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(25, 506);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(77, 17);
-            this.checkBox20.TabIndex = 70;
-            this.checkBox20.Text = "Perception";
-            this.checkBox20.UseVisualStyleBackColor = true;
+            this.chkPerception.AutoSize = true;
+            this.chkPerception.Location = new System.Drawing.Point(25, 506);
+            this.chkPerception.Name = "chkPerception";
+            this.chkPerception.Size = new System.Drawing.Size(77, 17);
+            this.chkPerception.TabIndex = 70;
+            this.chkPerception.Text = "Perception";
+            this.chkPerception.UseVisualStyleBackColor = true;
             // 
-            // label42
+            // lblMedicine
             // 
-            this.label42.Enabled = false;
-            this.label42.Location = new System.Drawing.Point(152, 483);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(30, 20);
-            this.label42.TabIndex = 71;
-            this.label42.Text = "+0";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label42.Visible = false;
+            this.lblMedicine.Enabled = false;
+            this.lblMedicine.Location = new System.Drawing.Point(152, 483);
+            this.lblMedicine.Name = "lblMedicine";
+            this.lblMedicine.Size = new System.Drawing.Size(30, 20);
+            this.lblMedicine.TabIndex = 71;
+            this.lblMedicine.Text = "+0";
+            this.lblMedicine.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox21
+            // chkSurvival
             // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(135, 506);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(64, 17);
-            this.checkBox21.TabIndex = 70;
-            this.checkBox21.Text = "Survival";
-            this.checkBox21.UseVisualStyleBackColor = true;
+            this.chkSurvival.AutoSize = true;
+            this.chkSurvival.Location = new System.Drawing.Point(135, 506);
+            this.chkSurvival.Name = "chkSurvival";
+            this.chkSurvival.Size = new System.Drawing.Size(64, 17);
+            this.chkSurvival.TabIndex = 70;
+            this.chkSurvival.Text = "Survival";
+            this.chkSurvival.UseVisualStyleBackColor = true;
             // 
-            // label43
+            // lblPerception
             // 
-            this.label43.Enabled = false;
-            this.label43.Location = new System.Drawing.Point(48, 526);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(30, 20);
-            this.label43.TabIndex = 69;
-            this.label43.Text = "+0";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label43.Visible = false;
+            this.lblPerception.Enabled = false;
+            this.lblPerception.Location = new System.Drawing.Point(48, 526);
+            this.lblPerception.Name = "lblPerception";
+            this.lblPerception.Size = new System.Drawing.Size(30, 20);
+            this.lblPerception.TabIndex = 69;
+            this.lblPerception.Text = "+0";
+            this.lblPerception.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label44
+            // lblSurvival
             // 
-            this.label44.Enabled = false;
-            this.label44.Location = new System.Drawing.Point(152, 526);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(30, 20);
-            this.label44.TabIndex = 69;
-            this.label44.Text = "+0";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label44.Visible = false;
+            this.lblSurvival.Enabled = false;
+            this.lblSurvival.Location = new System.Drawing.Point(152, 526);
+            this.lblSurvival.Name = "lblSurvival";
+            this.lblSurvival.Size = new System.Drawing.Size(30, 20);
+            this.lblSurvival.TabIndex = 69;
+            this.lblSurvival.Text = "+0";
+            this.lblSurvival.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label45
             // 
@@ -670,171 +622,163 @@
             this.label45.TabIndex = 48;
             this.label45.Text = "CHA";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label45.Visible = false;
             // 
-            // checkBox27
+            // chkCHASavingThrow
             // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Location = new System.Drawing.Point(10, 569);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(92, 17);
-            this.checkBox27.TabIndex = 74;
-            this.checkBox27.Text = "Saving Throw";
-            this.checkBox27.UseVisualStyleBackColor = true;
+            this.chkCHASavingThrow.AutoSize = true;
+            this.chkCHASavingThrow.Location = new System.Drawing.Point(10, 569);
+            this.chkCHASavingThrow.Name = "chkCHASavingThrow";
+            this.chkCHASavingThrow.Size = new System.Drawing.Size(92, 17);
+            this.chkCHASavingThrow.TabIndex = 74;
+            this.chkCHASavingThrow.Text = "Saving Throw";
+            this.chkCHASavingThrow.UseVisualStyleBackColor = true;
             // 
-            // label51
+            // lblCHASavingThrow
             // 
-            this.label51.Enabled = false;
-            this.label51.Location = new System.Drawing.Point(41, 589);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(30, 20);
-            this.label51.TabIndex = 73;
-            this.label51.Text = "+0";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label51.Visible = false;
+            this.lblCHASavingThrow.Enabled = false;
+            this.lblCHASavingThrow.Location = new System.Drawing.Point(41, 589);
+            this.lblCHASavingThrow.Name = "lblCHASavingThrow";
+            this.lblCHASavingThrow.Size = new System.Drawing.Size(30, 20);
+            this.lblCHASavingThrow.TabIndex = 73;
+            this.lblCHASavingThrow.Text = "+0";
+            this.lblCHASavingThrow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox26
+            // chkDeception
             // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Location = new System.Drawing.Point(130, 569);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(75, 17);
-            this.checkBox26.TabIndex = 82;
-            this.checkBox26.Text = "Deception";
-            this.checkBox26.UseVisualStyleBackColor = true;
+            this.chkDeception.AutoSize = true;
+            this.chkDeception.Location = new System.Drawing.Point(130, 569);
+            this.chkDeception.Name = "chkDeception";
+            this.chkDeception.Size = new System.Drawing.Size(75, 17);
+            this.chkDeception.TabIndex = 82;
+            this.chkDeception.Text = "Deception";
+            this.chkDeception.UseVisualStyleBackColor = true;
             // 
-            // checkBox25
+            // chkIntimidation
             // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Location = new System.Drawing.Point(17, 612);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(79, 17);
-            this.checkBox25.TabIndex = 81;
-            this.checkBox25.Text = "Intimidation";
-            this.checkBox25.UseVisualStyleBackColor = true;
+            this.chkIntimidation.AutoSize = true;
+            this.chkIntimidation.Location = new System.Drawing.Point(17, 612);
+            this.chkIntimidation.Name = "chkIntimidation";
+            this.chkIntimidation.Size = new System.Drawing.Size(79, 17);
+            this.chkIntimidation.TabIndex = 81;
+            this.chkIntimidation.Text = "Intimidation";
+            this.chkIntimidation.UseVisualStyleBackColor = true;
             // 
-            // label50
+            // lblDeception
             // 
-            this.label50.Enabled = false;
-            this.label50.Location = new System.Drawing.Point(152, 589);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(30, 20);
-            this.label50.TabIndex = 78;
-            this.label50.Text = "+0";
-            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label50.Visible = false;
+            this.lblDeception.Enabled = false;
+            this.lblDeception.Location = new System.Drawing.Point(152, 589);
+            this.lblDeception.Name = "lblDeception";
+            this.lblDeception.Size = new System.Drawing.Size(30, 20);
+            this.lblDeception.TabIndex = 78;
+            this.lblDeception.Text = "+0";
+            this.lblDeception.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label49
+            // lblIntimidation
             // 
-            this.label49.Enabled = false;
-            this.label49.Location = new System.Drawing.Point(41, 632);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(30, 20);
-            this.label49.TabIndex = 77;
-            this.label49.Text = "+0";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label49.Visible = false;
+            this.lblIntimidation.Enabled = false;
+            this.lblIntimidation.Location = new System.Drawing.Point(41, 632);
+            this.lblIntimidation.Name = "lblIntimidation";
+            this.lblIntimidation.Size = new System.Drawing.Size(30, 20);
+            this.lblIntimidation.TabIndex = 77;
+            this.lblIntimidation.Text = "+0";
+            this.lblIntimidation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // checkBox24
+            // chkPerformance
             // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Location = new System.Drawing.Point(124, 612);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(86, 17);
-            this.checkBox24.TabIndex = 84;
-            this.checkBox24.Text = "Performance";
-            this.checkBox24.UseVisualStyleBackColor = true;
+            this.chkPerformance.AutoSize = true;
+            this.chkPerformance.Location = new System.Drawing.Point(124, 612);
+            this.chkPerformance.Name = "chkPerformance";
+            this.chkPerformance.Size = new System.Drawing.Size(86, 17);
+            this.chkPerformance.TabIndex = 84;
+            this.chkPerformance.Text = "Performance";
+            this.chkPerformance.UseVisualStyleBackColor = true;
             // 
-            // checkBox23
+            // chkPersuasion
             // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(17, 655);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(78, 17);
-            this.checkBox23.TabIndex = 80;
-            this.checkBox23.Text = "Persuasion";
-            this.checkBox23.UseVisualStyleBackColor = true;
+            this.chkPersuasion.AutoSize = true;
+            this.chkPersuasion.Location = new System.Drawing.Point(17, 655);
+            this.chkPersuasion.Name = "chkPersuasion";
+            this.chkPersuasion.Size = new System.Drawing.Size(78, 17);
+            this.chkPersuasion.TabIndex = 80;
+            this.chkPersuasion.Text = "Persuasion";
+            this.chkPersuasion.UseVisualStyleBackColor = true;
             // 
-            // label48
+            // lblPerformance
             // 
-            this.label48.Enabled = false;
-            this.label48.Location = new System.Drawing.Point(152, 632);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(30, 20);
-            this.label48.TabIndex = 83;
-            this.label48.Text = "+0";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label48.Visible = false;
+            this.lblPerformance.Enabled = false;
+            this.lblPerformance.Location = new System.Drawing.Point(152, 632);
+            this.lblPerformance.Name = "lblPerformance";
+            this.lblPerformance.Size = new System.Drawing.Size(30, 20);
+            this.lblPerformance.TabIndex = 83;
+            this.lblPerformance.Text = "+0";
+            this.lblPerformance.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label47
+            // lblPersuasion
             // 
-            this.label47.Enabled = false;
-            this.label47.Location = new System.Drawing.Point(41, 675);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(30, 20);
-            this.label47.TabIndex = 76;
-            this.label47.Text = "+0";
-            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label47.Visible = false;
+            this.lblPersuasion.Enabled = false;
+            this.lblPersuasion.Location = new System.Drawing.Point(41, 675);
+            this.lblPersuasion.Name = "lblPersuasion";
+            this.lblPersuasion.Size = new System.Drawing.Size(30, 20);
+            this.lblPersuasion.TabIndex = 76;
+            this.lblPersuasion.Text = "+0";
+            this.lblPersuasion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // GrpSkills
             // 
-            this.GrpSkills.Controls.Add(this.label47);
-            this.GrpSkills.Controls.Add(this.label48);
-            this.GrpSkills.Controls.Add(this.checkBox23);
-            this.GrpSkills.Controls.Add(this.checkBox24);
-            this.GrpSkills.Controls.Add(this.label49);
-            this.GrpSkills.Controls.Add(this.label50);
-            this.GrpSkills.Controls.Add(this.checkBox25);
-            this.GrpSkills.Controls.Add(this.checkBox26);
-            this.GrpSkills.Controls.Add(this.label51);
-            this.GrpSkills.Controls.Add(this.checkBox27);
+            this.GrpSkills.Controls.Add(this.lblPersuasion);
+            this.GrpSkills.Controls.Add(this.lblPerformance);
+            this.GrpSkills.Controls.Add(this.chkPersuasion);
+            this.GrpSkills.Controls.Add(this.chkPerformance);
+            this.GrpSkills.Controls.Add(this.lblIntimidation);
+            this.GrpSkills.Controls.Add(this.lblDeception);
+            this.GrpSkills.Controls.Add(this.chkIntimidation);
+            this.GrpSkills.Controls.Add(this.chkDeception);
+            this.GrpSkills.Controls.Add(this.lblCHASavingThrow);
+            this.GrpSkills.Controls.Add(this.chkCHASavingThrow);
             this.GrpSkills.Controls.Add(this.label45);
-            this.GrpSkills.Controls.Add(this.label44);
-            this.GrpSkills.Controls.Add(this.label43);
-            this.GrpSkills.Controls.Add(this.checkBox21);
-            this.GrpSkills.Controls.Add(this.label42);
-            this.GrpSkills.Controls.Add(this.checkBox20);
-            this.GrpSkills.Controls.Add(this.checkBox19);
-            this.GrpSkills.Controls.Add(this.label41);
-            this.GrpSkills.Controls.Add(this.label40);
-            this.GrpSkills.Controls.Add(this.checkBox18);
-            this.GrpSkills.Controls.Add(this.checkBox17);
+            this.GrpSkills.Controls.Add(this.lblSurvival);
+            this.GrpSkills.Controls.Add(this.lblPerception);
+            this.GrpSkills.Controls.Add(this.chkSurvival);
+            this.GrpSkills.Controls.Add(this.lblMedicine);
+            this.GrpSkills.Controls.Add(this.chkPerception);
+            this.GrpSkills.Controls.Add(this.chkMedicine);
+            this.GrpSkills.Controls.Add(this.lblInsight);
+            this.GrpSkills.Controls.Add(this.lblAnimalHandling);
+            this.GrpSkills.Controls.Add(this.chkInsight);
+            this.GrpSkills.Controls.Add(this.chkAnimalHandling);
             this.GrpSkills.Controls.Add(this.label38);
-            this.GrpSkills.Controls.Add(this.label39);
-            this.GrpSkills.Controls.Add(this.checkBox16);
-            this.GrpSkills.Controls.Add(this.label37);
-            this.GrpSkills.Controls.Add(this.checkBox15);
-            this.GrpSkills.Controls.Add(this.label36);
-            this.GrpSkills.Controls.Add(this.checkBox14);
-            this.GrpSkills.Controls.Add(this.label35);
-            this.GrpSkills.Controls.Add(this.label34);
-            this.GrpSkills.Controls.Add(this.checkBox13);
-            this.GrpSkills.Controls.Add(this.checkBox12);
-            this.GrpSkills.Controls.Add(this.label33);
-            this.GrpSkills.Controls.Add(this.checkBox11);
-            this.GrpSkills.Controls.Add(this.label32);
-            this.GrpSkills.Controls.Add(this.checkBox10);
-            this.GrpSkills.Controls.Add(this.label29);
-            this.GrpSkills.Controls.Add(this.checkBox9);
+            this.GrpSkills.Controls.Add(this.lblWISSavingThrow);
+            this.GrpSkills.Controls.Add(this.chkWISSavingThrow);
+            this.GrpSkills.Controls.Add(this.lblReligion);
+            this.GrpSkills.Controls.Add(this.chkReligion);
+            this.GrpSkills.Controls.Add(this.lblNature);
+            this.GrpSkills.Controls.Add(this.lblInvestigation);
+            this.GrpSkills.Controls.Add(this.chkNature);
+            this.GrpSkills.Controls.Add(this.chkInvestigation);
+            this.GrpSkills.Controls.Add(this.lblHistory);
+            this.GrpSkills.Controls.Add(this.chkHistory);
+            this.GrpSkills.Controls.Add(this.lblArcana);
+            this.GrpSkills.Controls.Add(this.chkArcana);
+            this.GrpSkills.Controls.Add(this.lblINTSavingThrow);
+            this.GrpSkills.Controls.Add(this.chkINTSavingThrow);
             this.GrpSkills.Controls.Add(this.label28);
-            this.GrpSkills.Controls.Add(this.label27);
-            this.GrpSkills.Controls.Add(this.checkBox8);
+            this.GrpSkills.Controls.Add(this.lblCONSavingThrow);
+            this.GrpSkills.Controls.Add(this.chkCONSavingThrow);
             this.GrpSkills.Controls.Add(this.label26);
-            this.GrpSkills.Controls.Add(this.label25);
-            this.GrpSkills.Controls.Add(this.label24);
-            this.GrpSkills.Controls.Add(this.checkBox7);
-            this.GrpSkills.Controls.Add(this.checkBox6);
-            this.GrpSkills.Controls.Add(this.label23);
-            this.GrpSkills.Controls.Add(this.checkBox5);
-            this.GrpSkills.Controls.Add(this.label22);
-            this.GrpSkills.Controls.Add(this.checkBox4);
+            this.GrpSkills.Controls.Add(this.lblStealth);
+            this.GrpSkills.Controls.Add(this.lblSleightOfHand);
+            this.GrpSkills.Controls.Add(this.chkStealth);
+            this.GrpSkills.Controls.Add(this.chkSleightOfHand);
+            this.GrpSkills.Controls.Add(this.lblAcrobatics);
+            this.GrpSkills.Controls.Add(this.chkAcrobatics);
+            this.GrpSkills.Controls.Add(this.lblDEXSavingThrow);
+            this.GrpSkills.Controls.Add(this.chkDEXSavingThrow);
             this.GrpSkills.Controls.Add(this.label20);
-            this.GrpSkills.Controls.Add(this.label18);
-            this.GrpSkills.Controls.Add(this.label16);
-            this.GrpSkills.Controls.Add(this.checkBox3);
+            this.GrpSkills.Controls.Add(this.lblAthletics);
+            this.GrpSkills.Controls.Add(this.lblSTRSavingThrow);
+            this.GrpSkills.Controls.Add(this.chkSTRSavingThrow);
             this.GrpSkills.Controls.Add(this.label14);
-            this.GrpSkills.Controls.Add(this.checkBox2);
+            this.GrpSkills.Controls.Add(this.chkAthletics);
             this.GrpSkills.Location = new System.Drawing.Point(12, 166);
             this.GrpSkills.Name = "GrpSkills";
             this.GrpSkills.Size = new System.Drawing.Size(271, 698);
@@ -908,7 +852,6 @@
             this.label21.TabIndex = 35;
             this.label21.Text = "CHA";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label21.Visible = false;
             // 
             // txtCHA
             // 
@@ -929,7 +872,6 @@
             this.lblCHA.TabIndex = 37;
             this.lblCHA.Text = "+0";
             this.lblCHA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblCHA.Visible = false;
             // 
             // label19
             // 
@@ -940,7 +882,6 @@
             this.label19.TabIndex = 32;
             this.label19.Text = "WIS";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label19.Visible = false;
             // 
             // txtWIS
             // 
@@ -961,7 +902,6 @@
             this.lblWIS.TabIndex = 34;
             this.lblWIS.Text = "+0";
             this.lblWIS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblWIS.Visible = false;
             // 
             // label17
             // 
@@ -972,7 +912,6 @@
             this.label17.TabIndex = 29;
             this.label17.Text = "INT";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label17.Visible = false;
             // 
             // txtINT
             // 
@@ -993,7 +932,6 @@
             this.lblINT.TabIndex = 31;
             this.lblINT.Text = "+0";
             this.lblINT.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblINT.Visible = false;
             // 
             // label15
             // 
@@ -1004,7 +942,6 @@
             this.label15.TabIndex = 26;
             this.label15.Text = "CON";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label15.Visible = false;
             // 
             // txtCON
             // 
@@ -1025,7 +962,6 @@
             this.lblCON.TabIndex = 28;
             this.lblCON.Text = "+0";
             this.lblCON.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblCON.Visible = false;
             // 
             // label13
             // 
@@ -1036,7 +972,6 @@
             this.label13.TabIndex = 23;
             this.label13.Text = "DEX";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label13.Visible = false;
             // 
             // txtDEX
             // 
@@ -1057,7 +992,6 @@
             this.lblDEX.TabIndex = 25;
             this.lblDEX.Text = "+0";
             this.lblDEX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblDEX.Visible = false;
             // 
             // lblSTR
             // 
@@ -1068,7 +1002,6 @@
             this.lblSTR.TabIndex = 21;
             this.lblSTR.Text = "+0";
             this.lblSTR.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblSTR.Visible = false;
             // 
             // txtSTR
             // 
@@ -1089,7 +1022,6 @@
             this.label10.TabIndex = 19;
             this.label10.Text = "STR";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label10.Visible = false;
             // 
             // label9
             // 
@@ -1100,7 +1032,6 @@
             this.label9.Size = new System.Drawing.Size(40, 13);
             this.label9.TabIndex = 17;
             this.label9.Text = "Variant";
-            this.label9.Visible = false;
             // 
             // cmbVariant
             // 
@@ -1110,7 +1041,6 @@
             this.cmbVariant.Name = "cmbVariant";
             this.cmbVariant.Size = new System.Drawing.Size(121, 21);
             this.cmbVariant.TabIndex = 18;
-            this.cmbVariant.Visible = false;
             // 
             // cmbSubRace
             // 
@@ -1120,7 +1050,6 @@
             this.cmbSubRace.Name = "cmbSubRace";
             this.cmbSubRace.Size = new System.Drawing.Size(121, 21);
             this.cmbSubRace.TabIndex = 16;
-            this.cmbSubRace.Visible = false;
             // 
             // label8
             // 
@@ -1131,7 +1060,6 @@
             this.label8.Size = new System.Drawing.Size(52, 13);
             this.label8.TabIndex = 15;
             this.label8.Text = "SubRace";
-            this.label8.Visible = false;
             // 
             // label7
             // 
@@ -1358,28 +1286,20 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Name";
             // 
-            // checkBox22
+            // chkChangeInitiative
             // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(296, 201);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(125, 17);
-            this.checkBox22.TabIndex = 48;
-            this.checkBox22.Text = "Changeable Initiative";
-            this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // txtInitiative
-            // 
-            this.txtInitiative.Enabled = false;
-            this.txtInitiative.Location = new System.Drawing.Point(371, 172);
-            this.txtInitiative.Name = "txtInitiative";
-            this.txtInitiative.Size = new System.Drawing.Size(24, 20);
-            this.txtInitiative.TabIndex = 49;
+            this.chkChangeInitiative.AutoSize = true;
+            this.chkChangeInitiative.Location = new System.Drawing.Point(20, 50);
+            this.chkChangeInitiative.Name = "chkChangeInitiative";
+            this.chkChangeInitiative.Size = new System.Drawing.Size(125, 17);
+            this.chkChangeInitiative.TabIndex = 48;
+            this.chkChangeInitiative.Text = "Changeable Initiative";
+            this.chkChangeInitiative.UseVisualStyleBackColor = true;
             // 
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(297, 176);
+            this.label46.Location = new System.Drawing.Point(7, 8);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(46, 13);
             this.label46.TabIndex = 50;
@@ -1388,56 +1308,39 @@
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(409, 176);
+            this.label52.Location = new System.Drawing.Point(52, 8);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(38, 13);
             this.label52.TabIndex = 52;
             this.label52.Text = "Speed";
             // 
-            // textBox2
-            // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(453, 172);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(24, 20);
-            this.textBox2.TabIndex = 51;
-            // 
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(426, 201);
+            this.label53.Location = new System.Drawing.Point(97, 8);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(21, 13);
             this.label53.TabIndex = 54;
             this.label53.Text = "AC";
             // 
-            // textBox3
+            // txtHP
             // 
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(453, 198);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(24, 20);
-            this.textBox3.TabIndex = 53;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(485, 203);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(30, 20);
-            this.textBox4.TabIndex = 56;
-            this.textBox4.Text = "XX";
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtHP.Location = new System.Drawing.Point(128, 24);
+            this.txtHP.Name = "txtHP";
+            this.txtHP.Size = new System.Drawing.Size(30, 20);
+            this.txtHP.TabIndex = 56;
+            this.txtHP.Text = "XX";
+            this.txtHP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label54
             // 
             this.label54.Enabled = false;
-            this.label54.Location = new System.Drawing.Point(485, 176);
+            this.label54.Location = new System.Drawing.Point(128, 8);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(30, 20);
+            this.label54.Size = new System.Drawing.Size(30, 13);
             this.label54.TabIndex = 55;
             this.label54.Text = "HP";
             this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label54.Visible = false;
             // 
             // panel1
             // 
@@ -1451,13 +1354,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(210, 88);
             this.panel1.TabIndex = 59;
+            this.panel1.Visible = false;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.textBox6);
+            this.panel2.Controls.Add(this.txtClass);
             this.panel2.Controls.Add(this.label56);
-            this.panel2.Controls.Add(this.textBox5);
+            this.panel2.Controls.Add(this.txtRace);
             this.panel2.Controls.Add(this.label55);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.txtName);
@@ -1474,21 +1378,19 @@
             this.panel2.Size = new System.Drawing.Size(503, 55);
             this.panel2.TabIndex = 60;
             // 
-            // label55
+            // panel3
             // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(336, 7);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(33, 13);
-            this.label55.TabIndex = 43;
-            this.label55.Text = "Race";
+            this.panel3.Location = new System.Drawing.Point(6, 56);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(313, 100);
+            this.panel3.TabIndex = 61;
             // 
-            // textBox5
+            // txtClass
             // 
-            this.textBox5.Location = new System.Drawing.Point(375, 4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(125, 20);
-            this.textBox5.TabIndex = 61;
+            this.txtClass.Location = new System.Drawing.Point(55, 30);
+            this.txtClass.Name = "txtClass";
+            this.txtClass.Size = new System.Drawing.Size(100, 20);
+            this.txtClass.TabIndex = 62;
             // 
             // label56
             // 
@@ -1499,46 +1401,48 @@
             this.label56.TabIndex = 61;
             this.label56.Text = "Class";
             // 
-            // textBox6
+            // txtRace
             // 
-            this.textBox6.Location = new System.Drawing.Point(55, 30);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 62;
+            this.txtRace.Location = new System.Drawing.Point(375, 4);
+            this.txtRace.Name = "txtRace";
+            this.txtRace.Size = new System.Drawing.Size(125, 20);
+            this.txtRace.TabIndex = 61;
             // 
-            // panel3
+            // label55
             // 
-            this.panel3.Location = new System.Drawing.Point(6, 56);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(313, 100);
-            this.panel3.TabIndex = 61;
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(336, 7);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(33, 13);
+            this.label55.TabIndex = 43;
+            this.label55.Text = "Race";
             // 
-            // panel4
+            // panelStats
             // 
-            this.panel4.Controls.Add(this.label10);
-            this.panel4.Controls.Add(this.txtSTR);
-            this.panel4.Controls.Add(this.lblSTR);
-            this.panel4.Controls.Add(this.label13);
-            this.panel4.Controls.Add(this.txtDEX);
-            this.panel4.Controls.Add(this.lblDEX);
-            this.panel4.Controls.Add(this.label15);
-            this.panel4.Controls.Add(this.txtCON);
-            this.panel4.Controls.Add(this.lblCON);
-            this.panel4.Controls.Add(this.label17);
-            this.panel4.Controls.Add(this.txtINT);
-            this.panel4.Controls.Add(this.lblINT);
-            this.panel4.Controls.Add(this.label19);
-            this.panel4.Controls.Add(this.txtWIS);
-            this.panel4.Controls.Add(this.lblWIS);
-            this.panel4.Controls.Add(this.label21);
-            this.panel4.Controls.Add(this.txtCHA);
-            this.panel4.Controls.Add(this.label30);
-            this.panel4.Controls.Add(this.lblCHA);
-            this.panel4.Controls.Add(this.label31);
-            this.panel4.Location = new System.Drawing.Point(12, 73);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(253, 87);
-            this.panel4.TabIndex = 61;
+            this.panelStats.Controls.Add(this.label10);
+            this.panelStats.Controls.Add(this.txtSTR);
+            this.panelStats.Controls.Add(this.lblSTR);
+            this.panelStats.Controls.Add(this.label13);
+            this.panelStats.Controls.Add(this.txtDEX);
+            this.panelStats.Controls.Add(this.lblDEX);
+            this.panelStats.Controls.Add(this.label15);
+            this.panelStats.Controls.Add(this.txtCON);
+            this.panelStats.Controls.Add(this.lblCON);
+            this.panelStats.Controls.Add(this.label17);
+            this.panelStats.Controls.Add(this.txtINT);
+            this.panelStats.Controls.Add(this.lblINT);
+            this.panelStats.Controls.Add(this.label19);
+            this.panelStats.Controls.Add(this.txtWIS);
+            this.panelStats.Controls.Add(this.lblWIS);
+            this.panelStats.Controls.Add(this.label21);
+            this.panelStats.Controls.Add(this.txtCHA);
+            this.panelStats.Controls.Add(this.lblProficiency);
+            this.panelStats.Controls.Add(this.lblCHA);
+            this.panelStats.Controls.Add(this.label31);
+            this.panelStats.Location = new System.Drawing.Point(12, 73);
+            this.panelStats.Name = "panelStats";
+            this.panelStats.Size = new System.Drawing.Size(253, 87);
+            this.panelStats.TabIndex = 61;
             // 
             // panel5
             // 
@@ -1551,43 +1455,82 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(210, 86);
             this.panel5.TabIndex = 62;
+            this.panel5.Visible = false;
+            // 
+            // txtAC
+            // 
+            this.txtAC.Location = new System.Drawing.Point(92, 24);
+            this.txtAC.Name = "txtAC";
+            this.txtAC.Size = new System.Drawing.Size(30, 20);
+            this.txtAC.TabIndex = 63;
+            this.txtAC.Text = "XX";
+            this.txtAC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtSpeed
+            // 
+            this.txtSpeed.Location = new System.Drawing.Point(56, 24);
+            this.txtSpeed.Name = "txtSpeed";
+            this.txtSpeed.Size = new System.Drawing.Size(30, 20);
+            this.txtSpeed.TabIndex = 64;
+            this.txtSpeed.Text = "XX";
+            this.txtSpeed.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtInitative
+            // 
+            this.txtInitative.Enabled = false;
+            this.txtInitative.Location = new System.Drawing.Point(15, 24);
+            this.txtInitative.Name = "txtInitative";
+            this.txtInitative.Size = new System.Drawing.Size(30, 20);
+            this.txtInitative.TabIndex = 65;
+            this.txtInitative.Text = "XX";
+            this.txtInitative.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panelSecondaryStats
+            // 
+            this.panelSecondaryStats.Controls.Add(this.txtInitative);
+            this.panelSecondaryStats.Controls.Add(this.txtSpeed);
+            this.panelSecondaryStats.Controls.Add(this.txtAC);
+            this.panelSecondaryStats.Controls.Add(this.txtHP);
+            this.panelSecondaryStats.Controls.Add(this.label54);
+            this.panelSecondaryStats.Controls.Add(this.label53);
+            this.panelSecondaryStats.Controls.Add(this.label52);
+            this.panelSecondaryStats.Controls.Add(this.label46);
+            this.panelSecondaryStats.Controls.Add(this.chkChangeInitiative);
+            this.panelSecondaryStats.Location = new System.Drawing.Point(271, 73);
+            this.panelSecondaryStats.Name = "panelSecondaryStats";
+            this.panelSecondaryStats.Size = new System.Drawing.Size(176, 81);
+            this.panelSecondaryStats.TabIndex = 66;
             // 
             // MakeSheet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(758, 524);
+            this.AutoScrollMargin = new System.Drawing.Size(0, 10);
+            this.ClientSize = new System.Drawing.Size(534, 511);
+            this.Controls.Add(this.panelSecondaryStats);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panelStats);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label54);
-            this.Controls.Add(this.label53);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label52);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label46);
-            this.Controls.Add(this.txtInitiative);
-            this.Controls.Add(this.checkBox22);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.GrpSkills);
             this.Name = "MakeSheet";
             this.Text = "MakeSheet";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.GrpSkills.ResumeLayout(false);
             this.GrpSkills.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.panelStats.ResumeLayout(false);
+            this.panelStats.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.panelSecondaryStats.ResumeLayout(false);
+            this.panelSecondaryStats.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1596,64 +1539,62 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label lblProficiency;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox chkAthletics;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.CheckBox chkSTRSavingThrow;
+        private System.Windows.Forms.Label lblSTRSavingThrow;
+        private System.Windows.Forms.Label lblAthletics;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.CheckBox chkDEXSavingThrow;
+        private System.Windows.Forms.Label lblDEXSavingThrow;
+        private System.Windows.Forms.CheckBox chkAcrobatics;
+        private System.Windows.Forms.Label lblAcrobatics;
+        private System.Windows.Forms.CheckBox chkSleightOfHand;
+        private System.Windows.Forms.CheckBox chkStealth;
+        private System.Windows.Forms.Label lblSleightOfHand;
+        private System.Windows.Forms.Label lblStealth;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.CheckBox chkCONSavingThrow;
+        private System.Windows.Forms.Label lblCONSavingThrow;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.CheckBox chkINTSavingThrow;
+        private System.Windows.Forms.Label lblINTSavingThrow;
+        private System.Windows.Forms.CheckBox chkArcana;
+        private System.Windows.Forms.Label lblArcana;
+        private System.Windows.Forms.CheckBox chkHistory;
+        private System.Windows.Forms.Label lblHistory;
+        private System.Windows.Forms.CheckBox chkInvestigation;
+        private System.Windows.Forms.CheckBox chkNature;
+        private System.Windows.Forms.Label lblInvestigation;
+        private System.Windows.Forms.Label lblNature;
+        private System.Windows.Forms.CheckBox chkReligion;
+        private System.Windows.Forms.Label lblReligion;
+        private System.Windows.Forms.CheckBox chkWISSavingThrow;
+        private System.Windows.Forms.Label lblWISSavingThrow;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.CheckBox chkAnimalHandling;
+        private System.Windows.Forms.CheckBox chkInsight;
+        private System.Windows.Forms.Label lblAnimalHandling;
+        private System.Windows.Forms.Label lblInsight;
+        private System.Windows.Forms.CheckBox chkMedicine;
+        private System.Windows.Forms.CheckBox chkPerception;
+        private System.Windows.Forms.Label lblMedicine;
+        private System.Windows.Forms.CheckBox chkSurvival;
+        private System.Windows.Forms.Label lblPerception;
+        private System.Windows.Forms.Label lblSurvival;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.CheckBox checkBox27;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.CheckBox checkBox26;
-        private System.Windows.Forms.CheckBox checkBox25;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.CheckBox chkCHASavingThrow;
+        private System.Windows.Forms.Label lblCHASavingThrow;
+        private System.Windows.Forms.CheckBox chkDeception;
+        private System.Windows.Forms.CheckBox chkIntimidation;
+        private System.Windows.Forms.Label lblDeception;
+        private System.Windows.Forms.Label lblIntimidation;
+        private System.Windows.Forms.CheckBox chkPerformance;
+        private System.Windows.Forms.CheckBox chkPersuasion;
+        private System.Windows.Forms.Label lblPerformance;
+        private System.Windows.Forms.Label lblPersuasion;
         private System.Windows.Forms.GroupBox GrpSkills;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox cmbSecondClass;
@@ -1696,23 +1637,24 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.TextBox txtInitiative;
+        private System.Windows.Forms.CheckBox chkChangeInitiative;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtHP;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtRace;
         private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtClass;
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panelStats;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.TextBox txtAC;
+        private System.Windows.Forms.TextBox txtSpeed;
+        private System.Windows.Forms.TextBox txtInitative;
+        private System.Windows.Forms.Panel panelSecondaryStats;
     }
 }

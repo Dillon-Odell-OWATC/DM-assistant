@@ -56,10 +56,5 @@ namespace DM_Assistant
         {
 
         }
-
-        private void label24_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
